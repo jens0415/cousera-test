@@ -1,0 +1,168 @@
+html {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 200%;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    font-size: 125%;
+    color: #024669;
+    float: right;
+    position: relative;
+    padding: 1% 2% 1% 2%;
+    background-color: #2280BF;
+    width: auto;
+    margin-top: -3.4%;
+    margin-right: -3.4%;
+    outline: 1px solid black;
+    
+}
+
+p {
+    color: #024669;
+    clear: right;
+    padding: 1% 2% 1% 2%;
+}
+
+#C1 {
+    background-color: #808080;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 29.33%;
+    float: left;
+    padding: 1% 1% 1% 1%;
+    outline: 1px solid black;
+    color: #000000;
+
+}
+
+#hchicken {
+    background-color: #FF8080;
+}
+
+#C2 {
+    background-color: #808080;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 29.33%;
+    float: left;
+    padding: 1% 1% 1% 1%;
+    outline: 1px solid black;
+    color: #000000;
+}
+
+#hbeef {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+    
+#C3 {
+    background-color: #808080;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 29.33%;
+    float: left;
+    padding: 1% 1% 1% 1%;
+    outline: 1px solid black;
+    color: #000000;
+}
+
+#hlamb {
+    background-color: #FFFFE9;
+}
+
+/* RESPONSIVE MEDIA CODE */
+/*************************/
+/* Screens 991px or less */
+@media screen and (max-width: 991px) {
+	
+    #C1 {
+	width: 45%;
+    }
+    
+    #C2 {
+        width: 45%;
+    }
+    
+    #C3 {
+        width: 94%;
+        height: 150px auto;
+    }
+    
+    #hchicken, #hbeef {
+        font-size: 125%;
+        float: right;
+        position: relative;
+        padding: 1% 2% 1% 2%;
+        width: auto;
+        margin-top: -2.3%;
+        margin-right: -2.2%;
+    }
+    
+    #hlamb {
+        font-size: 125%;
+        float: right;
+        position: relative;
+        padding: 1% 2% 1% 2%;
+        width: auto;
+        margin-top: -1.1%;
+        margin-right: -1.1%;
+    
+    }
+	
+}
+
+/* Screens 767px or less */
+@media screen and (max-width: 767px) {
+	
+    #C1 {
+	width: auto;
+        margin-right: 6%;
+        margin-left:  6%;;
+    }
+    
+    #C2 {
+        width: auto;
+        margin-top: 5%;
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+    
+    #C3 {
+        width: auto;
+        margin-top: 5%;
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+    
+        #hlamb, #hchicken, #hbeef {
+        font-size: 125%;
+        float: right;
+        position: relative;
+        padding: 1% 2% 1% 2%;
+        width: auto;
+        margin-top: -1.2%;
+        margin-right: -1.2%;
+    
+    }
+	
+}
